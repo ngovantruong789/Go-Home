@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f77d78339bd5e241a478358a9d78ff2, type: 3}
+  m_Name: Enemy
+  m_EditorClassIdentifier: 
+  enemies:
+  - enemyName: MummyHead
+    levelToSpawn: 1
+    spawnPointName: SpawnPoint 2
+    spawnPoint: {x: 20.76, y: -3.01, z: 0}
+    countSpawn: 0
+    limitSpawn: 0
+    maxSpawn: 3
+    isSpecial: 0
+    isUp: 0
+    isMax: 0
+    isBoss: 0
+  - enemyName: Dino
+    levelToSpawn: 1
+    spawnPointName: SpawnPoint 2
+    spawnPoint: {x: 20.76, y: -3.01, z: 0}
+    countSpawn: 0
+    limitSpawn: 1
+    maxSpawn: 1
+    isSpecial: 0
+    isUp: 0
+    isMax: 0
+    isBoss: 0
+  - enemyName: DungDropper
+    levelToSpawn: 2
+    spawnPointName: SpawnPoint 4
+    spawnPoint: {x: -6.54, y: 14.16, z: 0}
+    countSpawn: 0
+    limitSpawn: 1
+    maxSpawn: 1
+    isSpecial: 1
+    isUp: 0
+    isMax: 0
+    isBoss: 0
+  - enemyName: Vulture
+    levelToSpawn: 3
+    spawnPointName: SpawnPoint 1
+    spawnPoint: {x: 14.96, y: 1.81, z: 0}
+    countSpawn: 0
+    limitSpawn: 0
+    maxSpawn: 3
+    isSpecial: 0
+    isUp: 1
+    isMax: 0
+    isBoss: 0
+  - enemyName: Jacka
+    levelToSpawn: 3
+    spawnPointName: JackaSpawnPoint
+    spawnPoint: {x: 20.76, y: -2.15, z: 0}
+    countSpawn: 0
+    limitSpawn: 0
+    maxSpawn: 3
+    isSpecial: 0
+    isUp: 0
+    isMax: 0
+    isBoss: 1
